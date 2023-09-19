@@ -1,0 +1,111 @@
+ .home {
+     background-color: var(--background-color-1);
+ }
+
+ .home-container {
+     position: relative;
+     padding: 50px 50px;
+     height: 100%;
+     width: 100%;
+     box-sizing: border-box;
+     display: flex;
+     gap: 20px;
+ }
+
+ .home-container .home-container-text-container {
+     display: flex;
+     align-items: center;
+     width: 50%;
+ }
+
+ /* .home-container .home-container-text-container .home-container-text-container-body {} */
+
+ .home-container .home-container-text-container .home-container-text-container-body h2 {
+     color: #000;
+     font-size: 44px;
+     font-weight: 700;
+     line-height: 55.44px;
+     margin-bottom: 15px;
+     margin-top: 0;
+ }
+
+ .home-container .home-container-text-container .home-container-text-container-body h2 mark {
+     background-color: transparent;
+     color: #4285F4;
+ }
+
+ .home-container .home-container-text-container .home-container-text-container-body p {
+     color: #616161;
+     font-size: var(--body-font-size);
+     font-weight: 400;
+     letter-spacing: 0.96px;
+ }
+
+ .home-container .home-container-image-container {
+     width: 50%;
+     height: 100%;
+     z-index: 2;
+
+     display: flex;
+     align-items: center;
+ }
+
+ .home-container .home-container-image-container .home-container-image-container-image {
+     background: url(../images/home-image.png);
+     background-position: top;
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 50%;
+ }
+
+ .home-container .home-container-right-column {
+     position: absolute;
+     right: 0;
+     top: 0;
+     width: 295px;
+     height: 100%;
+     border-radius: 30px 0px 0px 30px;
+     background: #EC5863;
+ }
+
+ .home-container-footer {
+     padding: 0 50px 20px 50px;
+     box-sizing: border-box;
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+ }
+
+ .home-container-footer .home-container-footer-image {
+     background: url(../images/home-footer-imager.png);
+     background-position: top;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 44px;
+     height: 44px;
+ }
+
+ .home-container-footer .home-container-footer-text {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .home-container-footer .home-container-footer-text .title {
+     color: #B0B0B0;
+     font-size: 13px;
+     font-weight: 400;
+     letter-spacing: 1.04px;
+ }
+
+ .home-container-footer .home-container-footer-text .sub-title {
+     color: #000;
+     font-size: 9px;
+     font-weight: 400;
+     letter-spacing: 1.485px;
+     text-transform: uppercase;
+ }

@@ -1,0 +1,10 @@
+body {
+    --accent-color: #EC5863;
+    --background-color-1: #FAFBFD;
+    --background-color-2: #FFF;
+
+    --logo-font-size: 18px;
+    --nav-font-size: 10px;
+    --body-font-size: 12px;
+    --card-title-font-size: 16px;
+}
