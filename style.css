@@ -1,0 +1,41 @@
+@import 'assets/css/variables.css';
+@import 'assets/css/shared.css';
+@import 'assets/css/header.css';
+@import 'assets/css/footer.css';
+@import 'assets/css/home.css';
+@import 'assets/css/page-1.css';
+@import 'assets/css/page-2.css';
+@import 'assets/css/page-3.css';
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    background-color: var(--background-color-2);
+    font-family: 'Rubik', sans-serif;
+}
+
+@media (min-width: 1280px) {
+
+    .home-container-footer .home-container-footer-image {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .home-container-footer-text .title {
+        font-size: 18px !important
+    }
+
+    .home-container-footer-text .sub-title {
+        font-size: 14px !important;
+    }
+
+    body {
+        --logo-font-size: 25px;
+        --nav-font-size: 18px;
+        --body-font-size: 20px;
+        --card-title-font-size: 22px;
+    }
+}
