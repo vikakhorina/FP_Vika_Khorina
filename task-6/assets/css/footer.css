@@ -1,0 +1,25 @@
+ footer {
+     padding: 15px 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+ }
+
+ footer a {
+     display: block;
+     background-position: top !important;
+     background-size: contain !important;
+     background-repeat: no-repeat !important;
+     width: 166px;
+     height: 67px;
+ }
+
+ footer .android {
+     background: url(../images/android.png);
+ }
+
+ footer .ios {
+     background: url(../images/ios.png);
+     height: 77px;
+ }

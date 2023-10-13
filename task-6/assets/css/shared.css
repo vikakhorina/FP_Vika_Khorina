@@ -1,0 +1,28 @@
+ .accent-button {
+     border-radius: 5px;
+     background: var(--accent-color);
+     color: #FCFDFE;
+     font-size: 10px;
+     font-weight: 800;
+     letter-spacing: 1.4px;
+     text-transform: uppercase;
+     padding: 14px 30px;
+     border-color: transparent;
+     cursor: pointer;
+ }
+
+ .accent-button:hover {
+     opacity: .5;
+ }
+
+ .hovered {
+     cursor: pointer;
+ }
+
+ .hovered:hover {
+     opacity: .5;
+ }
+
+ .page {
+     height: 100vh;
+ }
