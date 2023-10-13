@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-container {
+    width: 240px;
+    background: #dfe9f4;
+    border: 1px solid #606670;
+    padding: 10px;
+}

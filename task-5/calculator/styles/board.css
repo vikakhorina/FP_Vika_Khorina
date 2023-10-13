@@ -1,0 +1,42 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+    box-sizing: border-box;
+    user-select: none;
+
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid #8e9cad;
+    border-radius: 2px;
+
+    background: #f7fbff;
+}
+
+.key:hover {
+    background: url(../images/back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.op {
+    background: linear-gradient(to bottom, #f0f6fb 0%, #e2eaf3 50%, #d5e0ed 51%, #e2eaf3 100%, #d7e2ef 100%);
+}
+
+.ex {
+    width: 110px;
+}
