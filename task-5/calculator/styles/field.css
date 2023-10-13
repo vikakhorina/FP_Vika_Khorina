@@ -1,0 +1,37 @@
+.input-container {
+    height: 75px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.input {
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+    background: linear-gradient(to bottom, #e5eefb 0%, #feffff 100%);
+    border-radius: 2px;
+    border: 1px solid #8e9cad;
+    box-shadow: inset 0 0 0 1px #fff;
+
+    font-family: "Consolas", sans-serif;
+
+    overflow: hidden;
+}
+
+.expression {
+    height: 50%;
+    font-size: 18px;
+}
+
+.active {
+    height: 50%;
+    font-size: 28px;
+}

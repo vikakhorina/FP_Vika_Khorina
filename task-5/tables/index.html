@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>js-lab-4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="classes.js"></script>
+    <script src="script.js"></script>
+    <script src="service.js"></script>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="tables">
+
+            <table>
+                <caption>Пациент</caption>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Фамилия</th>
+                        <th>Возраст</th>
+                    </tr>
+                </thead>
+                <tbody id="pacient">
+
+                </tbody>
+            </table>
+
+            <table>
+                <caption>Врачи</caption>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Фамилия</th>
+                        <th>Профиль</th>
+                        <th>Стаж</th>
+                    </tr>
+                </thead>
+                <tbody id="doctor">
+
+                </tbody>
+            </table>
+
+            <table>
+                <caption>Препараты</caption>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Дозировка</th>
+                    </tr>
+                </thead>
+                <tbody id="medicines">
+
+                </tbody>
+            </table>
+
+            <table>
+                <caption>Анализы</caption>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>результат</th>
+                    </tr>
+                </thead>
+                <tbody id="analyze">
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="tool">
+
+            <button id="restore">Восстановить данные</button>
+
+            <button id="removemePacient">Удалить пациента</button>
+            <button id="addPacient">Добавить пациента</button>
+            <button id="updatePacient">Изменить имя пациента</button>
+
+            <button id="removemeAnalyze">Удалить анализ</button>
+
+            <button id="removeDoctor">Удалить врача</button>
+
+            <button id="removeMedicines">Удалить препарат</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
