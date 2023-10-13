@@ -1,0 +1,122 @@
+.page-3 {
+    background-color: var(--background-color-2);
+}
+
+.page-3-container {
+    padding: 50px 50px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.page-3-container .page-3-container-logo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-3-container .page-3-container-logo h2 {
+    color: #000;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55.44px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.page-3-container .page-3-container-logo h2 mark {
+    background-color: transparent;
+    color: #EC5863;
+}
+
+.page-3-container .page-3-container-logo p {
+    color: #616161;
+    font-size: var(--body-font-size);
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+
+.page-3-container-cards-container {
+    flex-grow: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-3-container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    position: relative;
+}
+
+.page-3-container-cards-back {
+    background: url(../images/page-3-image-4.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 105%;
+    height: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.page-3-container-card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(88, 126, 236, 0.18);
+    height: 275px;
+    max-width: 280px;
+    z-index: 2;
+}
+
+/* .page-3-container-card-image-container {} */
+
+.page-3-container-card-image-container .page-3-container-card-image-container-image {
+    background-position: top !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 64px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+.page-3-container-card-image-container .image-1 {
+    background: url(../images/page-3-image-1.png);
+}
+
+.page-3-container-card-image-container .image-2 {
+    background: url(../images/page-3-image-2.png);
+}
+
+.page-3-container-card-image-container .image-3 {
+    background: url(../images/page-3-image-3.png);
+}
+
+.page-3-container-card-item .title {
+    color: #000;
+    text-align: center;
+    font-size: var(--card-title-font-size);
+    font-weight: 700;
+    line-height: 22.16px;
+    letter-spacing: 1.28px;
+}
+
+.page-3-container-card-item .body {
+    color: #616161;
+    text-align: center;
+    font-size: var(--body-font-size);
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
